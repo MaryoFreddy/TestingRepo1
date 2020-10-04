@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pga6.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid;
+	transition: 0.8s;
+	margin-top: 10px;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	transform: translate(-50%;-50%);
+}
+.title h1{
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	top: 55%;
+	left: 35%;
+	transform: translate(-50%;-50%);
+}
+.btn1{
+	border: 1px solid;
+	padding: 10px 80px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.8s ease;
+	border-radius: 50px;
+	margin: 10px;
+}
+.btn1:hover{
+	background: #fff;
+	color: #000;
+}
+.btn2{
+	border: 1px solid;
+	padding: 10px 70px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.8s ease;
+	border-radius: 50px;
+	margin: 10px;
+}
+.btn2:hover{
+	background: #fff;
+	color: #000;
+}
